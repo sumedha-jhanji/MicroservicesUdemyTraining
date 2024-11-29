@@ -157,6 +157,135 @@
     Commands (SocialMedia Post Command API)
         HTTP Request (.NET Core) <-> ICommandDispatcher <-> IComamndHandler    <- IEventSourcingHandler (gets called in ICommandHandler and also uses ds PostAggregate) -> IEventStore <-> IEventStoreRepository <-> Event Store/write DB
                                                          -> Post Aggregate      -> Post Aggregate -> aggregateRoot                                                                      -> IEventPublisher -> Kafka
-    Queries (SocialMedia Post Query API)
+
+
+# Microservices Interview Questions Udemy course
+- https://www.udemy.com/course/microservices-interview-questions-passsing-guarranteed/learn/lecture/28797268?start=0#overview
+
+## COHESION
+- degree to which the elements of a module. code or software are related.
+- degree to which all elements of a module, software or code are directed towards performing a single task.
+- high COHESION is a good
+- Lowe cohesion example - helpre classes
+
+## ALTERNATIVES TO MONOTLITHIC apps
+- component based monolithic app
+    - made up of multiple binaries(dll)
+    - all libraries run as a part of single process and app.
+- SOA   
+    -  app is broken down into services
+    - same technology stack
+    - communicate via SOAP or RESTful apis 
+    - high coupling
+    - sync calls
+    - use shared DB
+- Microservices architecture
+    - breaks into independent services
+    - low coupluing
+    - can be async manner.
+    - no shared DB.
+    - mix and match technology stack.
+
+## BLAST radius
+- degree to which entrier system is affectec if micro service fails or shut down.
+
+- Patterns of resiliancy to reduce balst radius
+    - Independent database for each service
+    - Timeouts
+    - Backoff Strategy (retries)
+    - Fallback pattern
+    - Circuit Breaker Pattern
+    - BulkHead Pattern
+    - Asynchronous communication
+
+## CIRCUIT BREAKER Pattern
+- we set threshold for failing API calls example 3. so it can fail 3 times and then it needs to wait
+- if calls execeed the threshold, then we reject api calls
+- it is a microservice which acts as proxy or can be used as built in feature in microservice
+- 3 stages: 
+    - open - we reject calls here
+    - closed - we accept calls. It is good state
+    - half-open - we sometimes accept calls and sometime reject calls.
+
+- Closed state
+    client ---> request to circuit breaker ---> request to microservice ---> result to circuit breaker ---> result to client
+
+- Open state
+      client ---> request to circuit breaker ---> returns error to client
+
+## Ways to build microservices
+- single-tenant : one microservice on one virtual machine
+- containerized : we need docker to create container and kubernates for orchestration
+- serverless: small microservices run without server in cloud environment.
+
+## EVENT Vs Message
+- Events are something that has a;ready happened in past. Order cannot be changed. Handled by even streaming platform like apache kafka
+- Messages are also called as commands -> we ask them to happend. Order can be changed. Theyc an be made either by making call to API or through message broker.
+
+## Distributed transaction
+- each service has its own database, so managing transactions accross Multiple services is called distrubuted transactions.
+- It is also called as Eventual Consistency
+- the handle can be doen using either of 2 ways
+    - Two-Phase Commit (2PC) pattern    
+        - Prepare Phase
+            - Microservice is asked to prepare for change
+        - Commit Phase
+            asked to make final and actual change
+        example -> in first phase say we create a transatcion with status = 0 (this means it cannot be read for further processings).
+                -> in second phase, we will change the status to =1
+
+    - Saga Pattern
+        - asynchronous
+        - each microservice is for its own transaction and there is no waiting for microservices to finish the transaction.
+        - 2 Patterns    
+            Choreography Pattern -> if something goes wrong, the microservice that has a failed operation has to notify the upsteam(previous microservice) to rollback
+            Orchestration Pattern -> here central microservices that delivers the messages for rollback.
+
+## Bounded Context
+- concept in DDD (framework of anlayzing and modelling large problems).
+- boundary with in a domain where a particular domain model appies i.e the way we deal with model is a bounded context eg product can be handled in one way in placing order, another way in return order etc
+- one bounded context represnets one microservice
+
+## Consumer Defined Contract (CDC)
+- consumer  is consumer of an api
+- it is a kind of test to ensure constant changees in microservice will not break the dependent microservice.
+
+## Continuous Monitoring
+- automated process to ensure the security checks and extrenal compliance issues in application.
+
+## Idempotence
+- concept that ensures, same output for same input.
+
+## Side Car Pattern
+- deploying components of an app or service into a separate process or container to provide isolation and encapsulation.
+- core functionality will be in main microservice and other functionalities lile logging, configuration, proxy to remote service etc in side car micro service.
+
+## Types of tests
+- Functional tetsing -> is overall system working
+- Load tetsing -> does service scale if load goes up.
+- Resiliance tetsing -> how app reacts to failures (infrastructure, network failure, other microservice failure.)
+
+## DOCKER's role
+- create image -> binar file which ahs app and its dependencies
+- run container -> running instance of docker image
+- provides networking -> containers can connect to each other.
+
+## How can u deploy containers
+- deploy to server that have docker -> only for local deployment
+- deploy to server less container services lile Azure Conatiner Registry (ACR) in Azure
+- deploy to a container orcehstration service like kubernates - provide n/wing, loggong, monitoirng etc
+
+## Scaling Cube
+- ways of scaling
+    - x-axis -> more resources (auto scaling)
+    - y-axis -> split system by function microservices
+    - z-axis -> partioning (handle customers of each country by different servers closer to them)
+
+## Strangler application
+- pattern where new app is built around existing one, gradually replacing its functionalities.
+- contributes to migartion process by allowing the monilith to be decomposed into microservices incrementally, reducing the risk and complexity of the migration.
+
+
+## Queries (SocialMedia Post Query API)
         HTTP Request (.Net Core) <-> IQueryDispatcher <-> IQueryHandler <-> Postentity <-> IPostRepository <-> Read DB
                                                                                                             <- IEventHandler <- IEventConsumer <- Kafka
