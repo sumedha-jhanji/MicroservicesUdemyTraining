@@ -187,7 +187,7 @@
     - mix and match technology stack.
 
 ## BLAST radius
-- degree to which entrier system is affectec if micro service fails or shut down.
+- degree to which entire system is affected if micro service fails or shut down.
 
 - Patterns of resiliancy to reduce balst radius
     - Independent database for each service
@@ -207,11 +207,9 @@
     - closed - we accept calls. It is good state
     - half-open - we sometimes accept calls and sometime reject calls.
 
-- Closed state
-    client ---> request to circuit breaker ---> request to microservice ---> result to circuit breaker ---> result to client
+- Closed state: client ---> request to circuit breaker ---> request to microservice ---> result to circuit breaker ---> result to client
 
-- Open state
-      client ---> request to circuit breaker ---> returns error to client
+- Open state:  client ---> request to circuit breaker ---> returns error to client
 
 ## Ways to build microservices
 - single-tenant : one microservice on one virtual machine
