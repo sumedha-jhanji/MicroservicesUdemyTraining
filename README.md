@@ -223,33 +223,34 @@
 ## Distributed transaction
 - each service has its own database, so managing transactions accross Multiple services is called distrubuted transactions.
 - It is also called as Eventual Consistency
-- the handle can be doen using either of 2 ways
+- the handle can be done using either of 2 ways
     - Two-Phase Commit (2PC) pattern    
         - Prepare Phase
             - Microservice is asked to prepare for change
         - Commit Phase
-            asked to make final and actual change
-        example -> in first phase say we create a transatcion with status = 0 (this means it cannot be read for further processings).
-                -> in second phase, we will change the status to =1
+            - asked to make final and actual change
+            - example
+                - in first phase say we create a transatcion with status = 0 (this means it cannot be read for further processings).
+                - in second phase, we will change the status to =1
 
     - Saga Pattern
         - asynchronous
-        - each microservice is for its own transaction and there is no waiting for microservices to finish the transaction.
+        - each microservice has its own transaction and there is no waiting for microservices to finish the transaction.
         - 2 Patterns    
-            Choreography Pattern -> if something goes wrong, the microservice that has a failed operation has to notify the upsteam(previous microservice) to rollback
-            Orchestration Pattern -> here central microservices that delivers the messages for rollback.
+          - Choreography Pattern -> if something goes wrong, the microservice that has a failed operation has to notify the upsteam(previous microservice) to rollback
+          - Orchestration Pattern -> here central microservices that delivers the messages for rollback.
 
 ## Bounded Context
 - concept in DDD (framework of anlayzing and modelling large problems).
 - boundary with in a domain where a particular domain model appies i.e the way we deal with model is a bounded context eg product can be handled in one way in placing order, another way in return order etc
-- one bounded context represnets one microservice
+- one bounded context represents one microservice
 
 ## Consumer Defined Contract (CDC)
-- consumer  is consumer of an api
-- it is a kind of test to ensure constant changees in microservice will not break the dependent microservice.
+- consumer is consumer of an api
+- it is a kind of test to ensure constant changes in microservice will not break the dependent microservice.
 
 ## Continuous Monitoring
-- automated process to ensure the security checks and extrenal compliance issues in application.
+- automated process to ensure the security checks and external compliance issues in application.
 
 ## Idempotence
 - concept that ensures, same output for same input.
