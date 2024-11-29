@@ -1,0 +1,155 @@
+[
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.AddCommentController",
+    "Method": "AddCommentAsync",
+    "RelativePath": "api/v1/AddComment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Post.Cmd.Api.Commands.AddCommentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.DeletePostController",
+    "Method": "DeletePostAsync",
+    "RelativePath": "api/v1/DeletePost/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Post.Cmd.Api.Commands.DeletePostCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.EditCommentController",
+    "Method": "EditCommentAsync",
+    "RelativePath": "api/v1/EditComment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Post.Cmd.Api.Commands.EditCommentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.EditMessageController",
+    "Method": "EditMessageAsync",
+    "RelativePath": "api/v1/EditMessage/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Post.Cmd.Api.Commands.EditMessageCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.LikePostController",
+    "Method": "LikePostAsync",
+    "RelativePath": "api/v1/LikePost/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.NewPostController",
+    "Method": "NewPostAsync",
+    "RelativePath": "api/v1/NewPost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Post.Cmd.Api.Commands.NewPostCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.RemoveCommentController",
+    "Method": "RemoveCommentAsync",
+    "RelativePath": "api/v1/RemoveComment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Post.Cmd.Api.Commands.RemoveCommentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Cmd.Api.Controllers.RestoreReadDbController",
+    "Method": "RestoreReadDbAsync",
+    "RelativePath": "api/v1/RestoreReadDb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Post.Cmd.Api.Commands.RestoreReadDbCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

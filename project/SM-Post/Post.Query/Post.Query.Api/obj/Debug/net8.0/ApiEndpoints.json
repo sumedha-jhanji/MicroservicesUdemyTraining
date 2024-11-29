@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Post.Query.Api.Controllers.PostLookupController",
+    "Method": "GetAllPostsAsync",
+    "RelativePath": "api/v1/PostLookup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Query.Api.Controllers.PostLookupController",
+    "Method": "GetPostsByAuthorAsync",
+    "RelativePath": "api/v1/PostLookup/byAuthor/{author}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Query.Api.Controllers.PostLookupController",
+    "Method": "GetByPostIdAsync",
+    "RelativePath": "api/v1/PostLookup/byId/{postId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Query.Api.Controllers.PostLookupController",
+    "Method": "GetPostsWithCommenstAsync",
+    "RelativePath": "api/v1/PostLookup/withComments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Post.Query.Api.Controllers.PostLookupController",
+    "Method": "GetPostsWithLikesAsync",
+    "RelativePath": "api/v1/PostLookup/withLikes/{numberOfLikes}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numberOfLikes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

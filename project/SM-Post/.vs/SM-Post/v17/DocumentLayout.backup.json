@@ -1,0 +1,391 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.infrastructure\\repositories\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\repositories\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.infrastructure\\handlers\\eventsourcinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\handlers\\eventsourcinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20EDDD8-D103-4D0B-8554-7667CBDB5407}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20EDDD8-D103-4D0B-8554-7667CBDB5407}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.infrastructure\\store\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\store\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\commands\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\commands\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\controllers\\restorereaddbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\restorereaddbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D1C9CA0-E46E-4B92-B235-B3938BCF5194}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.query\\post.query.infrastructure\\consumers\\consumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D1C9CA0-E46E-4B92-B235-B3938BCF5194}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\consumers\\consumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D1C9CA0-E46E-4B92-B235-B3938BCF5194}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.query\\post.query.infrastructure\\consumers\\eventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D1C9CA0-E46E-4B92-B235-B3938BCF5194}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\consumers\\eventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.infrastructure\\producers\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\producers\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.infrastructure\\dispatcher\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F86A57-C3E1-44E9-9527-9444B7613F3D}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\dispatcher\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\commands\\restorereaddbcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\commands\\restorereaddbcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB0C89C-6421-4EE1-ADF2-04EF148D061B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.query\\post.query.domain\\entities\\commententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB0C89C-6421-4EE1-ADF2-04EF148D061B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|solutionrelative:post.query\\post.query.domain\\entities\\commententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB0C89C-6421-4EE1-ADF2-04EF148D061B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.query\\post.query.domain\\entities\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB0C89C-6421-4EE1-ADF2-04EF148D061B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|solutionrelative:post.query\\post.query.domain\\entities\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\commands\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\commands\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73355281-EC7B-480A-B748-434D42AA74F8}|..\\CQRS-Es\\CQRS.Core\\CQRS.Core.csproj|d:\\study material\\microservices\\udemy\\project\\cqrs-es\\cqrs.core\\domain\\ieventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73355281-EC7B-480A-B748-434D42AA74F8}|..\\CQRS-Es\\CQRS.Core\\CQRS.Core.csproj|d:\\study material\\microservices\\udemy\\project\\cqrs-es\\cqrs.core\\infrastructure\\ieventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73355281-EC7B-480A-B748-434D42AA74F8}|..\\CQRS-Es\\CQRS.Core\\CQRS.Core.csproj|d:\\study material\\microservices\\udemy\\project\\cqrs-es\\cqrs.core\\handlers\\ieventsourcinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20EDDD8-D103-4D0B-8554-7667CBDB5407}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20EDDD8-D103-4D0B-8554-7667CBDB5407}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|d:\\study material\\microservices\\udemy\\project\\sm-post\\post.cmd\\post.cmd.api\\controllers\\addcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB8212E-FF3D-4BF6-B376-15C2AAAF90B3}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\addcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IEventStore.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\CQRS-ES\\CQRS.Core\\Infrastructure\\IEventStore.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Infrastructure\\IEventStore.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\CQRS-ES\\CQRS.Core\\Infrastructure\\IEventStore.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Infrastructure\\IEventStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:19:40.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommandHandler.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwEIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:02:23.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventSourcingHandler.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourcingHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourcingHandler.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourcingHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourcingHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAMwDMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:02:23.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventStore.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Store\\EventStore.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Store\\EventStore.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Store\\EventStore.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Store\\EventStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:02:23.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Program.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:13:26.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T09:27:13.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventProducer.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:02:23.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventStoreRepository.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:20:56.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwBsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:08:33.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEventStoreRepository.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\CQRS-ES\\CQRS.Core\\Domain\\IEventStoreRepository.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Domain\\IEventStoreRepository.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\CQRS-ES\\CQRS.Core\\Domain\\IEventStoreRepository.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Domain\\IEventStoreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:20:26.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RestoreReadDbController.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:36:54.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsumerHostedService.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAvwCAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:36:13.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NewPostController.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:02:23.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventConsumer.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:02:23.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommandDispatcher.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Dispatcher\\CommandDispatcher.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Dispatcher\\CommandDispatcher.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Dispatcher\\CommandDispatcher.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Dispatcher\\CommandDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:02:23.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentEntity.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\CommentEntity.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Domain\\Entities\\CommentEntity.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\CommentEntity.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Domain\\Entities\\CommentEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:16:03.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RestoreReadDbCommand.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\RestoreReadDbCommand.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Commands\\RestoreReadDbCommand.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\RestoreReadDbCommand.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Commands\\RestoreReadDbCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:15:40.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PostEntity.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\PostEntity.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Domain\\Entities\\PostEntity.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\PostEntity.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Domain\\Entities\\PostEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:15:35.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IEventSourcingHandler.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourcingHandler.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourcingHandler.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourcingHandler.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourcingHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:18:56.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:18:19.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddCommentController.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T13:46:45.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PostLookupController.cs",
+              "DocumentMoniker": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "ToolTip": "D:\\Study Material\\Microservices\\Udemy\\project\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T13:46:11.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+D:\Study Material\Microservices\Udemy\project\CQRS-ES\CQRS.Core\bin\Debug\net8.0\CQRS.Core.deps.json
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\bin\Debug\net8.0\CQRS.Core.dll
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\bin\Debug\net8.0\CQRS.Core.pdb
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\CQRS.Core.AssemblyInfoInputs.cache
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\CQRS.Core.AssemblyInfo.cs
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\CQRS.Core.csproj.CoreCompileInputs.cache
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\CQRS.Core.dll
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\refint\CQRS.Core.dll
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\CQRS.Core.pdb
+D:\Study Material\Microservices\Udemy\project\CQRS-ES\CQRS.Core\obj\Debug\net8.0\ref\CQRS.Core.dll
+D:\Study Material\Microservices\Udemy\project\CQRS-Es\CQRS.Core\obj\Debug\net8.0\CQRS.Core.csproj.AssemblyReference.cache
